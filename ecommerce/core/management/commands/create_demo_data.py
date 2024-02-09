@@ -30,8 +30,8 @@ class Command(BaseCommand):
             action='store',
             dest='course_id',
             type=str,
-            default='course-v1:edX+DemoX+Demo_Course',
-            help='ID of the course to be created/updated. Defaults to course-v1:edX+DemoX+Demo_Course.'
+            default='course-v1:Axim+DemoX+demo_course',
+            help='ID of the course to be created/updated. Defaults to course-v1:Axim+DemoX+demo_course.'
         )
         parser.add_argument(
             '--course-title',

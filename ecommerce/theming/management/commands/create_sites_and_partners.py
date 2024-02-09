@@ -87,7 +87,7 @@ class Command(BaseCommand):
 
         if demo_course:
             # Create the course, this is used in devstack whitelabel testing
-            course_id = 'course-v1:{}+DemoX+Demo_Course'.format(partner_code)
+            course_id = 'course-v1:{}+DemoX+demo_course'.format(partner_code)
             one_year = datetime.timedelta(days=365)
             expires = timezone.now() + one_year
             price = 159
